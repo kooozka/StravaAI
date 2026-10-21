@@ -1,0 +1,29 @@
+# sensitive data and local configuration
+.env
+strava_tokens.json
+
+# virtual environments (dependencies are restored from requirements.txt)
+venv/
+.venv/
+env/
+
+# compiled python code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# logs
+*.log
+
+# system files
+.DS_Store
+Thumbs.db
+
+# IDE directories (if not excluded in the main .gitignore in root)
+.idea/
+.vscode/
+.cursorrules
+
+# test and analytical tools (e.g. pytest)
+.pytest_cache/
+.coverage
